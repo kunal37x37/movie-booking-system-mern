@@ -89,6 +89,7 @@ This project was developed as an **Internship Task** to demonstrate full-stack d
 ---
 
 ## 📁 Project Structure
+```bash
 movie-booking-system-mern/
 │
 ├── backend/
@@ -124,3 +125,46 @@ movie-booking-system-mern/
 │
 ├── .gitignore
 └── README.md
+```
+
+---
+
+## 🗄️ Database Schema
+
+### Users Collection
+```javascript
+{
+  name: String,
+  email: String (unique),
+  password: String (hashed),
+  role: String ('user'/'owner'),
+  phone: String,
+  createdAt: Date
+}
+```
+## Movies Collection
+
+{
+  name: String,
+  description: String,
+  language: String,
+  genre: String,
+  duration: String,
+  image: String,
+  basePrice: Number,
+  seatCategories: [{
+    name: String,
+    price: Number,
+    color: String,
+    rows: [String],
+    seatsPerRow: Number,
+    bookedSeats: [String]
+  }],
+  shows: [{
+    time: String,
+    date: String,
+    bookedSeats: [String]
+  }],
+  ownerId: ObjectId,
+  status: String
+}
