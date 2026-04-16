@@ -161,3 +161,13 @@ JWT_SECRET=your_secret_key
 EMAIL_USER=your_email@gmail.com
 EMAIL_PASS=your_app_password
 ```
+
+
+# 📜 License
+This project is licensed under the MIT License.
+
+# 👨‍💻 Author
+Patel Kunal Kiranbhai<br>
+GitHub:kunal37x37<br>
+Project Link:https://github.com/kunal37x37/AutoGarage-Online-Vehicle-Service-Booking-System-MERN-Stack-
+
