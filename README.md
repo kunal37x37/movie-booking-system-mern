@@ -89,3 +89,38 @@ This project was developed as an **Internship Task** to demonstrate full-stack d
 ---
 
 ## 📁 Project Structure
+movie-booking-system-mern/
+│
+├── backend/
+│ ├── models/
+│ │ ├── User.js # User schema
+│ │ ├── Movie.js # Movie schema with seat categories
+│ │ ├── Booking.js # Booking schema
+│ │ └── OTP.js # OTP verification schema
+│ ├── routes/
+│ │ ├── authRoutes.js # Login/Register APIs
+│ │ ├── movieRoutes.js # Movie CRUD APIs
+│ │ ├── bookingRoutes.js # Booking APIs
+│ │ └── otpRoutes.js # OTP send/verify APIs
+│ ├── middleware/
+│ │ └── auth.js # JWT verification middleware
+│ ├── server.js # Entry point
+│ └── package.json
+│
+├── frontend/
+│ ├── src/
+│ │ ├── pages/
+│ │ │ ├── LandingPage.js # Home page with movies
+│ │ │ ├── Login.js # Login page
+│ │ │ ├── Register.js # Registration with OTP
+│ │ │ ├── UserDashboard.js # User dashboard
+│ │ │ ├── OwnerDashboard.js # Owner dashboard
+│ │ │ └── BookingPage.js # Seat selection & payment
+│ │ ├── context/
+│ │ │ └── AuthContext.js # Auth state management
+│ │ ├── App.js # Main component
+│ │ └── index.js # Entry point
+│ └── package.json
+│
+├── .gitignore
+└── README.md
