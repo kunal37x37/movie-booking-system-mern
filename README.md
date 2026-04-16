@@ -32,19 +32,15 @@ This project was developed as an **Internship Task** to demonstrate full-stack d
 
 |Login page | Movie details page|
 |------------|----------------|
-|<img width="1893" height="759" alt="image" src="https://github.com/user-attachments/assets/284624d1-77d5-4ceb-a163-cdaada1ee8c7" />|<img width="1176" height="839" alt="image" src="https://github.com/user-attachments/assets/e5b5deb0-3cd0-427c-8e99-f26854f21672" />|
+|<img width="1003" height="614" alt="image" src="https://github.com/user-attachments/assets/c203710d-a240-4c92-af05-cab6755e1952" />|<img width="615" height="486" alt="image" src="https://github.com/user-attachments/assets/e119b9d6-c727-451a-902f-fa0cf0978631" />|
 
-|Ticket Booking page | confirmation /ticket download  page|
+|Ticket Booking page | confirmation /ticket Payment page|
 |------------|----------------|
-|<img width="858" height="891" alt="image" src="https://github.com/user-attachments/assets/a44ea529-c83c-4658-a99c-b9c87d7ba547" />|<img width="1168" height="781" alt="image" src="https://github.com/user-attachments/assets/224ff223-7dce-47d6-882a-46c539d67aee" />|
+|<img width="1917" height="887" alt="image" src="https://github.com/user-attachments/assets/e4048c1a-f63a-465a-bd71-3eb8cef8fd84" />|<img width="665" height="849" alt="image" src="https://github.com/user-attachments/assets/9be9fca4-e7a8-401a-9a46-2ad543080414" />|
 
-|Print Ticke image/E-Ticket | MyBooking page|
-|------------|----------------|
-|<img width="435" height="746" alt="image" src="https://github.com/user-attachments/assets/e2fad741-9554-4537-83a2-92aead94d7d0" />|<img width="1079" height="900" alt="image" src="https://github.com/user-attachments/assets/7daa8713-d159-463a-939a-c2039deb0fce" />|
-
-|Print Ticke image/E-Ticket | MyBooking page|
-|------------|----------------|
-|<img width="435" height="746" alt="image" src="https://github.com/user-attachments/assets/e2fad741-9554-4537-83a2-92aead94d7d0" />|<img width="1079" height="900" alt="image" src="https://github.com/user-attachments/assets/7daa8713-d159-463a-939a-c2039deb0fce" />|
+| MyBooking page/history page |
+|-----------------------------|
+|<img width="1891" height="899" alt="image" src="https://github.com/user-attachments/assets/99fecbf0-7ed8-4e50-b6f9-89a7e5eb63f1" />|
 
 **Admin  Screenshots:** 
 
