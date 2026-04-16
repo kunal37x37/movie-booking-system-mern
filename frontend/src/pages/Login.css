@@ -1,0 +1,152 @@
+.login-page {
+    min-height: 100vh;
+    background: linear-gradient(135deg, #0f0f0f 0%, #1a1a1a 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.login-container {
+    display: flex;
+    width: 1000px;
+    background: #1f2937;
+    border-radius: 30px;
+    overflow: hidden;
+    box-shadow: 0 25px 50px rgba(0, 0, 0, 0.5);
+}
+
+.login-left {
+    flex: 1;
+    padding: 50px;
+    background: #1f2937;
+}
+
+.login-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #dc2626;
+    margin-bottom: 40px;
+}
+
+.login-title {
+    font-size: 2.5rem;
+    color: white;
+    margin-bottom: 10px;
+}
+
+.login-subtitle {
+    color: #9ca3af;
+    margin-bottom: 30px;
+}
+
+.login-form {
+    margin-top: 30px;
+}
+
+.input-group {
+    margin-bottom: 20px;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 15px;
+    background: #374151;
+    border: 1px solid #4b5563;
+    border-radius: 12px;
+    color: white;
+    font-size: 1rem;
+    transition: all 0.3s;
+}
+
+.input-group input:focus {
+    outline: none;
+    border-color: #dc2626;
+    box-shadow: 0 0 0 3px rgba(220, 38, 38, 0.1);
+}
+
+.input-group input::placeholder {
+    color: #9ca3af;
+}
+
+.login-btn {
+    width: 100%;
+    padding: 15px;
+    background: linear-gradient(135deg, #dc2626, #b91c1c);
+    color: white;
+    border: none;
+    border-radius: 12px;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: transform 0.3s;
+}
+
+.login-btn:hover:not(:disabled) {
+    transform: translateY(-2px);
+}
+
+.login-btn:disabled {
+    opacity: 0.7;
+    cursor: not-allowed;
+}
+
+.error-message {
+    background: rgba(220, 38, 38, 0.1);
+    border: 1px solid #dc2626;
+    color: #dc2626;
+    padding: 12px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.register-link {
+    text-align: center;
+    margin-top: 30px;
+    color: #9ca3af;
+}
+
+.register-link a {
+    color: #dc2626;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.register-link a:hover {
+    text-decoration: underline;
+}
+
+.login-right {
+    flex: 1;
+    background: linear-gradient(135deg, #dc2626, #991b1b);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+}
+
+.login-quote {
+    text-align: center;
+    color: white;
+}
+
+.login-quote p {
+    font-size: 1.5rem;
+    font-style: italic;
+    margin-bottom: 20px;
+}
+
+.login-quote span {
+    font-size: 0.9rem;
+    opacity: 0.8;
+}
+
+@media (max-width: 768px) {
+    .login-container {
+        flex-direction: column;
+        width: 90%;
+    }
+    .login-right {
+        display: none;
+    }
+}

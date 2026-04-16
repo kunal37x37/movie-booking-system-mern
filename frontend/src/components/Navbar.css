@@ -1,0 +1,151 @@
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.95);
+    backdrop-filter: blur(10px);
+    z-index: 1000;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.nav-container {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+}
+
+.nav-brand {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+}
+
+.nav-logo {
+    font-size: 1.8rem;
+}
+
+.nav-name {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: white;
+}
+
+.text-red {
+    color: #dc2626;
+}
+
+.nav-menu {
+    display: flex;
+    gap: 30px;
+}
+
+.nav-link {
+    color: #e5e7eb;
+    text-decoration: none;
+    transition: color 0.3s;
+    font-weight: 500;
+}
+
+.nav-link:hover {
+    color: #dc2626;
+}
+
+.nav-actions {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+
+.nav-btn-login {
+    background: transparent;
+    color: white;
+    border: 1px solid #4b5563;
+    padding: 8px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.nav-btn-login:hover {
+    border-color: #dc2626;
+    color: #dc2626;
+}
+
+.nav-btn-signup,
+.nav-btn-dashboard {
+    background: linear-gradient(135deg, #dc2626, #b91c1c);
+    color: white;
+    border: none;
+    padding: 8px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: transform 0.3s;
+}
+
+.nav-btn-signup:hover,
+.nav-btn-dashboard:hover {
+    transform: translateY(-2px);
+}
+
+.nav-btn-logout {
+    background: #374151;
+    color: white;
+    border: none;
+    padding: 8px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.nav-btn-logout:hover {
+    background: #4b5563;
+}
+
+.mobile-menu-btn {
+    display: none;
+    background: none;
+    border: none;
+    color: white;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+@media (max-width: 768px) {
+    .mobile-menu-btn {
+        display: block;
+    }
+    .nav-menu {
+        position: fixed;
+        top: 70px;
+        left: -100%;
+        width: 100%;
+        height: calc(100vh - 70px);
+        background: rgba(0, 0, 0, 0.95);
+        flex-direction: column;
+        align-items: center;
+        padding-top: 50px;
+        transition: left 0.3s;
+    }
+    .nav-menu.active {
+        left: 0;
+    }
+    .nav-menu .nav-link {
+        font-size: 1.2rem;
+        padding: 15px;
+    }
+    .nav-actions {
+        gap: 10px;
+    }
+    .nav-btn-login,
+    .nav-btn-signup,
+    .nav-btn-dashboard,
+    .nav-btn-logout {
+        padding: 6px 12px;
+        font-size: 0.9rem;
+    }
+}
