@@ -28,7 +28,7 @@ This project was developed as an **Internship Task** to demonstrate full-stack d
 
 | Home Page | Register page |
 |------------|----------------|
-| <img width="1876" height="892" alt="image" src="https://github.com/user-attachments/assets/8c57599f-89e4-4872-84ea-077c901fff5e" /> | <img width="1883" height="881" alt="image" src="https://github.com/user-attachments/assets/acbc609d-5134-4dcd-86d1-09279e6a1c74" />|
+|<img width="1378" height="753" alt="image" src="https://github.com/user-attachments/assets/be4fa70d-c1c7-42bc-bba2-35700acca0bd" />|<img width="810" height="395" alt="image" src="https://github.com/user-attachments/assets/54f1ade4-ec7d-4f3f-83ec-62b9f90385e6" />|
 
 |Login page | Movie details page|
 |------------|----------------|
