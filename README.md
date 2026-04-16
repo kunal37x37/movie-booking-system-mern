@@ -129,42 +129,35 @@ movie-booking-system-mern/
 
 ---
 
-## 🗄️ Database Schema
+## 🔧 Installation
 
-### Users Collection
-```javascript
-{
-  name: String,
-  email: String (unique),
-  password: String (hashed),
-  role: String ('user'/'owner'),
-  phone: String,
-  createdAt: Date
+### Prerequisites
+- Node.js (v14+)
+- MongoDB Compass
+- Gmail account (for OTP)
+
+### Steps
+
+```bash
+# 1. Clone repository
+git clone https://github.com/kunal37x37/movie-booking-system-mern.git
+cd movie-booking-system-mern
+
+# 2. Backend setup
+cd backend
+npm install
+npm run dev
+
+# 3. Frontend setup (new terminal)
+cd frontend
+npm install
+npm start
 }
 ```
-## Movies Collection
-
-{
-  name: String,
-  description: String,
-  language: String,
-  genre: String,
-  duration: String,
-  image: String,
-  basePrice: Number,
-  seatCategories: [{
-    name: String,
-    price: Number,
-    color: String,
-    rows: [String],
-    seatsPerRow: Number,
-    bookedSeats: [String]
-  }],
-  shows: [{
-    time: String,
-    date: String,
-    bookedSeats: [String]
-  }],
-  ownerId: ObjectId,
-  status: String
-}
+## Environment Variables (.env in backend)
+```bash
+PORT=5000
+JWT_SECRET=your_secret_key
+EMAIL_USER=your_email@gmail.com
+EMAIL_PASS=your_app_password
+```
