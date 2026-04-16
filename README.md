@@ -24,7 +24,6 @@ This project was developed as an **Internship Task** to demonstrate full-stack d
 ---
 📸 **Screenshots**  
 
-**User  Screenshots:** 
 
 | Home Page | Register page |
 |------------|----------------|
@@ -42,27 +41,22 @@ This project was developed as an **Internship Task** to demonstrate full-stack d
 |-----------------------------|
 |<img width="1891" height="899" alt="image" src="https://github.com/user-attachments/assets/99fecbf0-7ed8-4e50-b6f9-89a7e5eb63f1" />|
 
-**Admin  Screenshots:** 
-
-| Register Page| Login page |
+|  User Dashboard Page| Admin Dashbord page page |
 |------------|----------------|
-| <img width="1123" height="639" alt="image" src="https://github.com/user-attachments/assets/11a50676-6dd3-437d-ae6f-fd569f40ddb0" /> | <img width="1032" height="545" alt="image" src="https://github.com/user-attachments/assets/ef9e361c-5499-4620-84b8-ce340283c13a" />|
+| <img width="1889" height="882" alt="image" src="https://github.com/user-attachments/assets/d63f48e6-1c41-4673-bcce-f5dd7f5fd53e" /> |<img width="1912" height="898" alt="image" src="https://github.com/user-attachments/assets/ac786b68-f0c1-4b1c-8277-48562eda158e" />|
 
-|  Admin Dashboard Page| Add New Movie page |
+|  Manage Movies[Edit-update-delet-active/inactive Movie] Page| Edit Movie page |
 |------------|----------------|
-| <img width="1205" height="848" alt="image" src="https://github.com/user-attachments/assets/59f28fae-ce75-4137-9a73-23eb2f071b80" /> | <img width="1072" height="764" alt="image" src="https://github.com/user-attachments/assets/75889393-a393-46a6-9510-eb43aa9e88a6" />|
+|<img width="1541" height="791" alt="image" src="https://github.com/user-attachments/assets/bb653772-d278-440d-a0f8-7f0ca3254fca" />
+|<img width="686" height="811" alt="image" src="https://github.com/user-attachments/assets/a81928bc-8d4a-4983-8921-8c695db32485" />|
 
-|  Manage Movies[Edit-update-active/inactive Movie] Page| Edit Movie page |
+| add movie  Page| Admin Booking History Page|
 |------------|----------------|
-| <img width="1090" height="880" alt="image" src="https://github.com/user-attachments/assets/24d7e4ac-4d08-4e7f-ab6f-8c62f2966bf4" /> |<img width="1059" height="707" alt="image" src="https://github.com/user-attachments/assets/73e9c8ca-b1e3-4241-aa8c-a14b87ecd233" />|
+|<img width="445" height="816" alt="image" src="https://github.com/user-attachments/assets/48f015b8-6c41-4711-801b-c24fa309cd1f" />|<img width="1919" height="827" alt="image" src="https://github.com/user-attachments/assets/5887e5ce-087e-4ebf-b546-f0eedd299972" />|
 
-| Manage Showtimes[admin add/delete showtime] Page| Add Showtime Page|
-|------------|----------------|
-|<img width="1084" height="629" alt="image" src="https://github.com/user-attachments/assets/963b6c3b-8fbb-4dd3-96c5-fab5d2e131e5" />|<img width="1052" height="572" alt="image"   src="https://github.com/user-attachments/assets/009461b6-9a2e-4984-a78a-dc17e2f95904" />|
-
- | Admin ShowBooking Page | Admin Home Page|
- |------------|----------------|
-|<img width="1022" height="889" alt="image" src="https://github.com/user-attachments/assets/c8d8641c-860f-4624-936b-60a63c79d4a3" />|<img width="1117" height="761" alt="image" src="https://github.com/user-attachments/assets/0cf38e03-d8ef-42a8-8d6b-694a366792da" />|
+ | Admin Analytics Page |
+ |-----------------------------|
+|<img width="1638" height="686" alt="image" src="https://github.com/user-attachments/assets/fecc543e-4934-4177-95dd-0bf11c3d26c3" />|
 
 
 
@@ -70,11 +64,12 @@ This project was developed as an **Internship Task** to demonstrate full-stack d
 
 | User Data | Movies Data|
  |------------|----------------|
-|<img width="1239" height="364" alt="image" src="https://github.com/user-attachments/assets/2d0e1337-ba4f-468e-92f2-97ce79c6fcd9" />|<img width="1249" height="285" alt="image" src="https://github.com/user-attachments/assets/d2f1b0b8-6351-42cb-9564-91db4036979a" />|
+|<img width="1167" height="592" alt="image" src="https://github.com/user-attachments/assets/c6869170-aae7-40ac-bf9a-ad47819cfc30" />|<img width="1438" height="553" alt="image" src="https://github.com/user-attachments/assets/e9cc24a6-c7d5-43af-977b-b52d8d60a3b9" />|
 
-| Showtime Data | Booking Data|
+| Booking Data | Strucher of Data|
  |------------|----------------|
-|<img width="1003" height="534" alt="image" src="https://github.com/user-attachments/assets/35bef293-b9e2-47e5-9d5f-169d9903b18f" />|<img width="1449" height="665" alt="image" src="https://github.com/user-attachments/assets/e6a316d3-19de-4c4b-8ec7-f080d075b183" />|
+|<img width="1101" height="547" alt="image" src="https://github.com/user-attachments/assets/fd1cc87e-2a4c-4ffc-a07f-0754f1d82e5e" />|<img width="1454" height="516" alt="image" src="https://github.com/user-attachments/assets/fd596ecf-faa3-4ecc-8b31-7c63c1e0211c" />|
+
 
 ---
 ## ✨ Features
